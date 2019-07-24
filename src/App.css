@@ -1,0 +1,44 @@
+.text {
+  text-align: center;
+}
+
+.segment {
+  padding: 3px 0;
+  margin: 2px 0;
+}
+
+.segment:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.segment.selected {
+  color: orangered;
+}
+
+.segment.tagged {
+  border: 1px solid lightblue;
+  border-radius: 4px;
+
+  padding: 3px 3px;
+  margin: 2px 2px;
+}
+
+.tag {
+  color: lightblue;
+  user-select: none;
+}
+
+.search {
+  display: flex;
+}
+.search-input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 1.2em;
+  /*display: flex;*/
+  flex: 1;
+}
